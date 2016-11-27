@@ -1,2 +1,2 @@
 echo haha
-g++ ./test.cpp
+sudo g++ ./test.cpp
