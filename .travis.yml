@@ -1,5 +1,8 @@
-sudo: required
 dist: trusty
+sudo: required
 language: cpp
 complier: gcc
+before_script:
+- echo "hello, Travis CI"
+- chmod 777 ./build.sh
 script: ./build.sh
